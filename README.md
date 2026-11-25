@@ -1,0 +1,1662 @@
+[index.html](https://github.com/user-attachments/files/35422258/index.html)
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosignal.ster — Institutional AI Forex &amp; Gold (XAUUSD) Trading Signals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            obsidian: '#05070C',
+            elevated: '#0B0F1A',
+            surface: '#111827',
+            emeraldBuy: '#10B981',
+            crimsonSell: '#EF4444',
+            cyanNeural: '#06B6D4',
+            indigoNeural: '#6366F1',
+            goldAccent: '#F59E0B',
+          },
+          animation: {
+            'marquee': 'marquee 38s linear infinite',
+            'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+          },
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(0%)' },
+              '100%': { transform: 'translateX(-50%)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #05070C;
+      color: #F8FAFC;
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      letter-spacing: -0.025em;
+    }
+
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .bg-terminal-grid {
+      background-size: 44px 44px;
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    }
+
+    .glass-nav {
+      background: rgba(5, 7, 12, 0.84);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-card {
+      background: linear-gradient(165deg, rgba(17, 24, 39, 0.72) 0%, rgba(11, 15, 26, 0.94) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(6, 182, 212, 0.35);
+      box-shadow: 0 22px 50px -15px rgba(6, 182, 212, 0.16);
+    }
+
+    .hero-headline-grad {
+      background: linear-gradient(135deg, #FFFFFF 12%, #CBD5E1 52%, #38BDF8 95%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .cta-emerald-glow {
+      background: linear-gradient(135deg, #10B981 0%, #059669 55%, #06B6D4 100%);
+      box-shadow: 0 0 28px -5px rgba(16, 185, 129, 0.55);
+      transition: all 0.2s ease;
+    }
+
+    .cta-emerald-glow:hover {
+      filter: brightness(1.08);
+      box-shadow: 0 0 34px -3px rgba(16, 185, 129, 0.72);
+    }
+
+    .marquee-wrapper:hover .animate-marquee {
+      animation-play-state: paused;
+    }
+
+    /* Custom Range Slider */
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.12);
+      height: 5px;
+      border-radius: 999px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #10B981;
+      cursor: pointer;
+      border: 2px solid #05070C;
+      box-shadow: 0 0 10px rgba(16, 185, 129, 0.85);
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #05070C;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1E293B;
+      border-radius: 999px;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
+
+  <!-- Ambient Neural Glows -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-40 left-1/4 w-[580px] h-[580px] rounded-full bg-indigo-600/15 blur-[145px] animate-pulse-slow"></div>
+    <div class="absolute top-1/3 -right-24 w-[500px] h-[500px] rounded-full bg-cyan-500/10 blur-[145px] animate-pulse-slow" style="animation-delay: 2s;"></div>
+    <div class="absolute bottom-0 left-12 w-[480px] h-[420px] rounded-full bg-emerald-500/10 blur-[145px]"></div>
+  </div>
+
+  <!-- 1. LIVE MARKET & AI SIGNAL TICKER BAR -->
+  <div class="relative z-50 bg-elevated border-b border-white/[0.08] py-2 overflow-hidden marquee-wrapper">
+    <div class="flex w-max animate-marquee" id="marketTickerTrack">
+      <!-- Populated dynamically via JS for seamless looping -->
+    </div>
+  </div>
+
+  <!-- 2. STICKY GLASSMORPHIC NAVIGATION -->
+  <header class="sticky top-0 z-40 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 via-cyan-400 to-indigo-500 p-[1.5px] shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
+            <div class="w-full h-full bg-obsidian rounded-[10.5px] flex items-center justify-center relative">
+              <svg class="w-5 h-5 text-emerald-400" viewBox="0 0 24 24" fill="none">
+                <path d="M4 17L9.5 11.5L13.5 15.5L20 7" stroke="url(#zqTradeGrad)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15 7H20V12" stroke="#10B981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                  <linearGradient id="zqTradeGrad" x1="4" y1="17" x2="20" y2="7" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6366F1"/>
+                    <stop offset="0.5" stop-color="#06B6D4"/>
+                    <stop offset="1" stop-color="#10B981"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="font-display text-xl font-extrabold text-white tracking-tight">Rosignal<span class="text-cyan-400">.ster</span></span>
+            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 font-mono text-[10px] font-semibold text-emerald-400">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+              AI LIVE
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
+          <a href="#live-signals" class="hover:text-white transition-colors">Live Signals</a>
+          <a href="#ai-terminal" class="hover:text-white transition-colors">AI Terminal</a>
+          <a href="#performance" class="hover:text-white transition-colors">Performance</a>
+          <a href="#features" class="hover:text-white transition-colors">Features</a>
+          <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
+          <a href="#faq" class="hover:text-white transition-colors">FAQ</a>
+        </nav>
+
+        <!-- Desktop CTAs -->
+        <div class="hidden md:flex items-center gap-3">
+          <a href="#ai-terminal" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold text-cyan-300 bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 transition-all">
+            Launch AI Terminal
+          </a>
+          <button onclick="openVipModal('Pro Trader ($49/mo)')" class="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-obsidian cta-emerald-glow active:scale-95">
+            Access VIP Signals
+          </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10" aria-label="Toggle Menu">
+          <svg id="menuIconOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="menuIconClose" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div id="mobileMenuDrawer" class="hidden lg:hidden border-t border-white/10 bg-obsidian/95 backdrop-blur-2xl px-4 pt-4 pb-6 space-y-2">
+      <a href="#live-signals" onclick="toggleMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5">Live Signals</a>
+      <a href="#ai-terminal" onclick="toggleMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5">AI Terminal</a>
+      <a href="#performance" onclick="toggleMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5">Performance</a>
+      <a href="#features" onclick="toggleMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5">Features</a>
+      <a href="#pricing" onclick="toggleMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5">Pricing</a>
+      <a href="#faq" onclick="toggleMobileMenu()" class="block px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5">FAQ</a>
+      <div class="pt-3 grid grid-cols-2 gap-3">
+        <a href="#ai-terminal" onclick="toggleMobileMenu()" class="py-2.5 text-center rounded-xl text-xs font-semibold text-cyan-300 bg-cyan-500/10 border border-cyan-500/30">Launch AI Terminal</a>
+        <button onclick="toggleMobileMenu(); openVipModal('Pro Trader ($49/mo)');" class="py-2.5 rounded-xl text-xs font-bold text-obsidian cta-emerald-glow">Access VIP Signals</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+
+    <!-- 3. HERO SECTION + LIVE INTERACTIVE AI SIGNAL TERMINAL PREVIEW -->
+    <section id="ai-terminal" class="relative bg-terminal-grid pt-12 pb-20 md:pt-16 md:pb-24 border-b border-white/[0.08]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-4xl mx-auto">
+          <!-- Session Status Pill -->
+          <div class="inline-flex flex-wrap items-center justify-center gap-2.5 px-4 py-1.5 rounded-full bg-elevated/95 border border-white/10 text-xs text-slate-300 mb-6 shadow-lg">
+            <span class="flex items-center gap-1.5 font-mono text-amber-400 font-semibold">
+              <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+              XAUUSD ORDER-FLOW ENGINE v4.2
+            </span>
+            <span class="text-slate-600">|</span>
+            <span class="font-mono text-cyan-300">NY &amp; London Liquidity Active</span>
+          </div>
+
+          <!-- Display Headline -->
+          <h1 class="text-3xl sm:text-5xl lg:text-[60px] font-extrabold tracking-tight leading-[1.07] mb-5">
+            <span class="hero-headline-grad">Institutional AI Forex &amp; Gold Signals</span><br />
+            <span class="text-white">Powered by Neural Order-Flow.</span>
+          </h1>
+
+          <!-- Subheadline -->
+          <p class="max-w-2xl mx-auto text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed mb-8">
+            Algorithmic Smart Money Concepts (SMC), multi-timeframe liquidity sweep detection, and sub-second Telegram &amp; MT4/MT5 execution across <span class="text-amber-400 font-semibold">XAUUSD (Gold)</span>, G7 Forex Majors, and US Indices.
+          </p>
+
+          <!-- Primary Hero CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 mb-12">
+            <button onclick="openVipModal('Pro Trader ($49/mo)')" class="w-full sm:w-auto px-7 py-3.5 rounded-2xl text-sm sm:text-base font-bold text-obsidian cta-emerald-glow flex items-center justify-center gap-2 active:scale-95">
+              <span>Access VIP Signals Now</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+            </button>
+            <button onclick="openVipModal('Starter Free Trial')" class="w-full sm:w-auto px-7 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-white bg-elevated hover:bg-surface border border-white/10 hover:border-cyan-500/40 transition-all flex items-center justify-center gap-2">
+              <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+              Get 2 Free Daily Telegram Signals
+            </button>
+          </div>
+
+          <!-- Live KPI Strip -->
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto mb-12">
+            <div class="rounded-2xl bg-elevated/90 border border-white/[0.08] p-4 text-center">
+              <div class="font-mono text-xl sm:text-2xl font-bold text-emerald-400 tabular-nums">87.4%</div>
+              <div class="text-xs text-slate-400 mt-1">Verified Win Rate</div>
+            </div>
+            <div class="rounded-2xl bg-elevated/90 border border-white/[0.08] p-4 text-center">
+              <div class="font-mono text-xl sm:text-2xl font-bold text-amber-400 tabular-nums">+4,820</div>
+              <div class="text-xs text-slate-400 mt-1">Monthly Net Pips</div>
+            </div>
+            <div class="rounded-2xl bg-elevated/90 border border-white/[0.08] p-4 text-center">
+              <div class="font-mono text-xl sm:text-2xl font-bold text-cyan-400 tabular-nums">&lt;120ms</div>
+              <div class="text-xs text-slate-400 mt-1">Neural Latency</div>
+            </div>
+            <div class="rounded-2xl bg-elevated/90 border border-white/[0.08] p-4 text-center">
+              <div class="font-mono text-xl sm:text-2xl font-bold text-indigo-400 tabular-nums">1:3.4</div>
+              <div class="text-xs text-slate-400 mt-1">Avg Risk:Reward</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EMBEDDED INTERACTIVE AI SIGNAL TERMINAL -->
+        <div class="rounded-3xl bg-elevated border border-white/10 shadow-[0_30px_90px_-20px_rgba(6,182,212,0.22)] overflow-hidden">
+          <!-- Terminal Top Control Bar -->
+          <div class="px-4 sm:px-6 py-3.5 bg-obsidian border-b border-white/[0.08] flex flex-wrap items-center justify-between gap-3">
+            <!-- Pair Switcher Tabs -->
+            <div class="flex flex-wrap items-center gap-1.5" id="terminalPairTabs">
+              <button data-pair="XAUUSD" class="term-pair-btn active px-3 py-1.5 rounded-xl font-mono text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 transition-all">
+                XAUUSD <span class="text-[10px] opacity-80">GOLD</span>
+              </button>
+              <button data-pair="EURUSD" class="term-pair-btn px-3 py-1.5 rounded-xl font-mono text-xs font-semibold bg-white/5 text-slate-300 hover:text-white border border-white/10 transition-all">
+                EURUSD
+              </button>
+              <button data-pair="GBPUSD" class="term-pair-btn px-3 py-1.5 rounded-xl font-mono text-xs font-semibold bg-white/5 text-slate-300 hover:text-white border border-white/10 transition-all">
+                GBPUSD
+              </button>
+              <button data-pair="USDJPY" class="term-pair-btn px-3 py-1.5 rounded-xl font-mono text-xs font-semibold bg-white/5 text-slate-300 hover:text-white border border-white/10 transition-all">
+                USDJPY
+              </button>
+              <button data-pair="NAS100" class="term-pair-btn px-3 py-1.5 rounded-xl font-mono text-xs font-semibold bg-white/5 text-slate-300 hover:text-white border border-white/10 transition-all">
+                NAS100
+              </button>
+            </div>
+
+            <!-- Timeframe Switcher + Status -->
+            <div class="flex items-center gap-2">
+              <div class="flex items-center rounded-xl bg-surface p-1 border border-white/10" id="terminalTfTabs">
+                <button data-tf="M15" class="term-tf-btn px-2.5 py-1 rounded-lg font-mono text-xs font-semibold text-slate-400 hover:text-white transition-all">M15</button>
+                <button data-tf="H1" class="term-tf-btn active px-2.5 py-1 rounded-lg font-mono text-xs font-bold bg-cyan-500/20 text-cyan-300 transition-all">H1</button>
+                <button data-tf="H4" class="term-tf-btn px-2.5 py-1 rounded-lg font-mono text-xs font-semibold text-slate-400 hover:text-white transition-all">H4</button>
+              </div>
+              <span class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25 font-mono text-[11px] text-emerald-400">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                SMC STREAM
+              </span>
+            </div>
+          </div>
+
+          <!-- Terminal Main Grid: Left Candlestick Canvas + Right Neural Execution Panel -->
+          <div class="grid grid-cols-1 lg:grid-cols-12">
+            <!-- Left 8 Cols: Interactive HTML5 Canvas Chart -->
+            <div class="lg:col-span-8 p-4 sm:p-6 border-b lg:border-b-0 lg:border-r border-white/[0.08] bg-obsidian/90 flex flex-col justify-between">
+              <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                <div class="flex items-center gap-3">
+                  <span id="chartPairTitle" class="font-mono text-base sm:text-lg font-bold text-white">XAUUSD • H1</span>
+                  <span id="chartDirectionBadge" class="px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">BUY LIMIT / INSTITUTIONAL LONG</span>
+                </div>
+                <div class="flex items-center gap-3 font-mono text-xs tabular-nums">
+                  <span class="text-slate-400">Live: <strong id="chartLivePrice" class="text-white">2742.80</strong></span>
+                  <span id="chartSessionTag" class="px-2 py-0.5 rounded bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">NY Killzone</span>
+                </div>
+              </div>
+
+              <!-- Responsive Canvas Container -->
+              <div id="chartCanvasContainer" class="relative w-full h-[300px] sm:h-[360px] rounded-2xl bg-[#070A12] border border-white/[0.07] overflow-hidden">
+                <canvas id="smcChartCanvas" class="block w-full h-full"></canvas>
+              </div>
+
+              <!-- Chart Legend Strip -->
+              <div class="mt-3 flex flex-wrap items-center justify-between gap-3 font-mono text-[11px] text-slate-400">
+                <div class="flex flex-wrap items-center gap-4">
+                  <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-indigo-500/40 border border-indigo-400"></span> Bullish Order Block</span>
+                  <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-amber-500/30 border border-amber-400"></span> Liquidity Sweep / FVG</span>
+                  <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-cyan-400"></span> AI Entry</span>
+                  <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-emerald-400"></span> TP1–TP3</span>
+                  <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-rose-500"></span> Stop Loss</span>
+                </div>
+                <span class="text-slate-500">Hover chart for price crosshair</span>
+              </div>
+            </div>
+
+            <!-- Right 4 Cols: Signal Parameters, AI Confidence & Rationale -->
+            <div class="lg:col-span-4 p-5 sm:p-6 bg-elevated flex flex-col justify-between space-y-5">
+              <div>
+                <!-- AI Confidence Meter -->
+                <div class="p-4 rounded-2xl bg-obsidian/90 border border-white/[0.08] mb-4">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="font-mono text-xs uppercase tracking-wider text-slate-400">Neural AI Confidence</span>
+                    <span id="termConfidenceVal" class="font-mono text-base font-bold text-cyan-400 tabular-nums">94.2%</span>
+                  </div>
+                  <div class="w-full h-2 rounded-full bg-surface overflow-hidden">
+                    <div id="termConfidenceBar" class="h-full rounded-full bg-gradient-to-r from-indigo-500 via-cyan-400 to-emerald-400 transition-all duration-500" style="width: 94.2%;"></div>
+                  </div>
+                  <div class="mt-2 flex items-center justify-between font-mono text-[11px] text-slate-400">
+                    <span id="termConfluenceLabel">Confluence: M15 + H1 + H4 Aligned</span>
+                    <span id="termRRLabel" class="text-emerald-400 font-semibold">R:R 1:3.6</span>
+                  </div>
+                </div>
+
+                <!-- Entry / SL / TP1 / TP2 / TP3 Matrix -->
+                <div class="grid grid-cols-2 gap-2.5 font-mono tabular-nums mb-4">
+                  <div class="p-3 rounded-xl bg-cyan-500/10 border border-cyan-500/30">
+                    <div class="text-[10px] text-cyan-300 uppercase">Entry Zone</div>
+                    <div id="termEntryVal" class="text-sm sm:text-base font-bold text-white mt-0.5">2741.50</div>
+                  </div>
+                  <div class="p-3 rounded-xl bg-rose-500/10 border border-rose-500/30">
+                    <div class="text-[10px] text-rose-400 uppercase">Stop Loss</div>
+                    <div id="termSlVal" class="text-sm sm:text-base font-bold text-rose-300 mt-0.5">2734.00 <span class="text-[10px]">(-75p)</span></div>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25">
+                    <div class="text-[10px] text-emerald-400">TP 1 (+65 pips)</div>
+                    <div id="termTp1Val" class="text-xs sm:text-sm font-bold text-emerald-300 mt-0.5">2748.00</div>
+                  </div>
+                  <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25">
+                    <div class="text-[10px] text-emerald-400">TP 2 (+145 pips)</div>
+                    <div id="termTp2Val" class="text-xs sm:text-sm font-bold text-emerald-300 mt-0.5">2756.00</div>
+                  </div>
+                  <div class="col-span-2 p-2.5 rounded-xl bg-emerald-500/15 border border-emerald-500/35 flex items-center justify-between">
+                    <span class="text-[11px] text-emerald-300 font-semibold">TP 3 Runner (+270 pips)</span>
+                    <span id="termTp3Val" class="text-sm font-bold text-emerald-300">2768.50</span>
+                  </div>
+                </div>
+
+                <!-- Neural Order-Flow Rationale -->
+                <div class="p-3.5 rounded-2xl bg-obsidian/80 border border-white/[0.07]">
+                  <div class="font-mono text-[11px] text-indigo-300 uppercase tracking-wider mb-1.5">Neural SMC Rationale</div>
+                  <p id="termRationaleText" class="text-xs text-slate-300 leading-relaxed">
+                    Sell-side liquidity swept below London session low ($2,736.20) followed by a high-volume H1 bullish CHoCH and unmitigated Fair Value Gap retest. DXY showing bearish divergence.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 1-Click Copy MT4/MT5 Signal Button -->
+              <div>
+                <button onclick="copyTerminalSignal()" class="w-full py-3.5 px-4 rounded-xl font-mono text-xs sm:text-sm font-bold text-obsidian cta-emerald-glow flex items-center justify-center gap-2 active:scale-95">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                  Copy MT4/MT5 Signal
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. LIVE AI SIGNALS FEED & FILTERABLE SIGNAL CARDS -->
+    <section id="live-signals" class="py-20 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <span class="font-mono text-xs uppercase tracking-widest text-emerald-400">Real-Time Execution Stream</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">
+            Live Institutional AI Signals Feed
+          </h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-2 max-w-2xl">
+            Every trade includes verified Entry, Stop Loss, multi-tier Take Profits, and real-time status tracking synced directly with our Telegram VIP &amp; MT4/MT5 bridge.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="flex flex-wrap items-center gap-2" id="signalFilterTabs">
+          <button data-filter="all" class="sig-filter-btn active px-3.5 py-2 rounded-xl font-mono text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all">All Pairs</button>
+          <button data-filter="gold" class="sig-filter-btn px-3.5 py-2 rounded-xl font-mono text-xs font-semibold bg-elevated text-slate-300 hover:text-white border border-white/10 transition-all">Gold (XAUUSD)</button>
+          <button data-filter="forex" class="sig-filter-btn px-3.5 py-2 rounded-xl font-mono text-xs font-semibold bg-elevated text-slate-300 hover:text-white border border-white/10 transition-all">Forex Majors</button>
+          <button data-filter="indices" class="sig-filter-btn px-3.5 py-2 rounded-xl font-mono text-xs font-semibold bg-elevated text-slate-300 hover:text-white border border-white/10 transition-all">Indices / Crypto</button>
+          <button data-filter="active" class="sig-filter-btn px-3.5 py-2 rounded-xl font-mono text-xs font-semibold bg-elevated text-slate-300 hover:text-white border border-white/10 transition-all">Active Only</button>
+          <button data-filter="tp" class="sig-filter-btn px-3.5 py-2 rounded-xl font-mono text-xs font-semibold bg-elevated text-slate-300 hover:text-white border border-white/10 transition-all">Hit TP</button>
+        </div>
+      </div>
+
+      <!-- Signal Cards Grid -->
+      <div id="signalsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </section>
+
+    <!-- 5. INTERACTIVE AI LOT SIZE & RISK MANAGEMENT CALCULATOR -->
+    <section class="py-20 border-y border-white/[0.08] bg-elevated/45">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <!-- Left Explainer -->
+          <div class="lg:col-span-5 space-y-4">
+            <span class="font-mono text-xs uppercase tracking-widest text-cyan-400">Prop-Firm Grade Risk Engine</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+              AI Position Size &amp; Lot Calculator
+            </h2>
+            <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
+              Never over-leverage an FTMO, FundedNext, or personal live account. Enter your capital and risk tolerance to compute exact Standard &amp; Mini lot sizes plus projected TP1–TP3 dollar returns.
+            </p>
+            <div class="p-4 rounded-2xl bg-obsidian/90 border border-white/[0.08] space-y-2 font-mono text-xs">
+              <div class="flex items-center justify-between text-slate-400">
+                <span>Max Daily Drawdown Guard</span>
+                <span class="text-emerald-400 font-semibold">Protected (≤ 2.0%)</span>
+              </div>
+              <div class="flex items-center justify-between text-slate-400">
+                <span>Pip Value Calibration</span>
+                <span class="text-cyan-300 font-semibold">Real-Time Contract Specs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Calculator Widget -->
+          <div class="lg:col-span-7 glass-card rounded-3xl p-6 sm:p-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6">
+              <!-- Account Balance -->
+              <div>
+                <label for="calcBalance" class="block font-mono text-xs text-slate-400 mb-2">Account Balance ($ USD)</label>
+                <div class="relative">
+                  <span class="absolute left-3.5 top-1/2 -translate-y-1/2 font-mono text-sm text-slate-500">$</span>
+                  <input id="calcBalance" type="number" min="100" step="100" value="25000" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 pl-8 pr-4 py-3 font-mono text-sm text-white tabular-nums outline-none" />
+                </div>
+              </div>
+
+              <!-- Instrument Selector -->
+              <div>
+                <label for="calcPair" class="block font-mono text-xs text-slate-400 mb-2">Trading Instrument</label>
+                <select id="calcPair" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 px-3.5 py-3 font-mono text-sm text-white outline-none">
+                  <option value="XAUUSD" data-pipval="10" data-defaultsl="75">XAUUSD (Gold — $10/pip/lot)</option>
+                  <option value="EURUSD" data-pipval="10" data-defaultsl="30">EURUSD ($10/pip/lot)</option>
+                  <option value="GBPUSD" data-pipval="10" data-defaultsl="35">GBPUSD ($10/pip/lot)</option>
+                  <option value="USDJPY" data-pipval="6.85" data-defaultsl="40">USDJPY ($6.85/pip/lot)</option>
+                  <option value="NAS100" data-pipval="1" data-defaultsl="120">NAS100 ($1/pt/lot)</option>
+                </select>
+              </div>
+
+              <!-- Risk Percentage -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <label for="calcRiskSlider" class="font-mono text-xs text-slate-400">Risk Per Trade (%)</label>
+                  <span id="calcRiskDisplay" class="font-mono text-xs font-bold text-emerald-400 tabular-nums">1.0%</span>
+                </div>
+                <input id="calcRiskSlider" type="range" min="0.25" max="5" step="0.25" value="1" class="w-full mt-2" />
+                <div class="flex justify-between font-mono text-[10px] text-slate-500 mt-1">
+                  <span>0.25% Conservative</span>
+                  <span>1.0% Prop Std</span>
+                  <span>5.0% High</span>
+                </div>
+              </div>
+
+              <!-- Stop Loss in Pips -->
+              <div>
+                <label for="calcSlPips" class="block font-mono text-xs text-slate-400 mb-2">Stop Loss Distance (Pips / Pts)</label>
+                <input id="calcSlPips" type="number" min="5" max="1000" value="75" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 px-4 py-3 font-mono text-sm text-white tabular-nums outline-none" />
+              </div>
+            </div>
+
+            <!-- Computed Outputs Box -->
+            <div class="rounded-2xl bg-obsidian border border-white/10 p-5">
+              <div class="grid grid-cols-3 gap-4 pb-4 border-b border-white/[0.08] text-center">
+                <div>
+                  <div class="font-mono text-[11px] text-slate-400">Standard Lots</div>
+                  <div id="outStdLots" class="font-mono text-xl sm:text-2xl font-extrabold text-emerald-400 tabular-nums mt-1">0.33</div>
+                </div>
+                <div>
+                  <div class="font-mono text-[11px] text-slate-400">Mini Lots</div>
+                  <div id="outMiniLots" class="font-mono text-xl sm:text-2xl font-extrabold text-cyan-400 tabular-nums mt-1">3.33</div>
+                </div>
+                <div>
+                  <div class="font-mono text-[11px] text-slate-400">Capital at Risk</div>
+                  <div id="outRiskUsd" class="font-mono text-xl sm:text-2xl font-extrabold text-rose-400 tabular-nums mt-1">$250.00</div>
+                </div>
+              </div>
+
+              <!-- Projected Profit at TP1, TP2, TP3 -->
+              <div class="pt-4 grid grid-cols-3 gap-3 text-center font-mono tabular-nums">
+                <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+                  <div class="text-[10px] text-slate-400">TP1 (1:1.2 R:R)</div>
+                  <div id="outTp1Usd" class="text-xs sm:text-sm font-bold text-emerald-300 mt-0.5">+$300.00</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25">
+                  <div class="text-[10px] text-slate-400">TP2 (1:2.4 R:R)</div>
+                  <div id="outTp2Usd" class="text-xs sm:text-sm font-bold text-emerald-300 mt-0.5">+$600.00</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-emerald-500/15 border border-emerald-500/35">
+                  <div class="text-[10px] text-amber-300">TP3 (1:3.6 R:R)</div>
+                  <div id="outTp3Usd" class="text-xs sm:text-sm font-bold text-emerald-300 mt-0.5">+$900.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. BENTO GRID OF CORE AI CAPABILITIES & VERIFIED PERFORMANCE (5 CARDS) -->
+    <section id="features" class="py-20 md:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-14">
+        <span class="font-mono text-xs uppercase tracking-widest text-cyan-400">Institutional Neural Infrastructure</span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-2 mb-4">
+          Engineered for Precision Order-Flow Execution
+        </h2>
+        <p class="text-slate-400 text-base sm:text-lg">
+          Zoqira combines deep institutional liquidity mapping, macroeconomic volatility protection, and automated MT4/MT5 trade copying.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-6 gap-5">
+
+        <!-- Card 1 (Span 4): Neural Liquidity & SMC Scanner -->
+        <div class="md:col-span-4 glass-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/30 font-mono text-xs text-indigo-300 mb-4">
+              <span>01</span> • <span>SMART MONEY CONCEPTS</span>
+            </div>
+            <h3 class="text-xl sm:text-2xl font-bold text-white mb-2">Neural Liquidity &amp; SMC Scanner</h3>
+            <p class="text-slate-400 text-sm sm:text-base max-w-xl">
+              Scans 28 pairs and Gold ticks every 80ms to pinpoint Break of Structure (BOS), Change of Character (CHoCH), Fair Value Gaps (FVG), and institutional Order Blocks before retail momentum arrives.
+            </p>
+          </div>
+
+          <div class="mt-7 grid grid-cols-2 sm:grid-cols-4 gap-2.5 font-mono text-xs">
+            <div class="p-3 rounded-xl bg-obsidian border border-white/10">
+              <div class="text-emerald-400 font-bold">BOS / CHoCH</div>
+              <div class="text-[11px] text-slate-400 mt-1">Structure Shift</div>
+            </div>
+            <div class="p-3 rounded-xl bg-obsidian border border-white/10">
+              <div class="text-cyan-400 font-bold">FVG Imbalance</div>
+              <div class="text-[11px] text-slate-400 mt-1">50% CE Fill</div>
+            </div>
+            <div class="p-3 rounded-xl bg-obsidian border border-white/10">
+              <div class="text-amber-400 font-bold">Liquidity Sweep</div>
+              <div class="text-[11px] text-slate-400 mt-1">Asian/London H/L</div>
+            </div>
+            <div class="p-3 rounded-xl bg-obsidian border border-white/10">
+              <div class="text-indigo-400 font-bold">Order Blocks</div>
+              <div class="text-[11px] text-slate-400 mt-1">Mitigation Zone</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 (Span 2): Instant Telegram & MT4/MT5 Copier -->
+        <div class="md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 font-mono text-xs text-emerald-300 mb-4">
+              <span>02</span> • <span>ZERO-CLICK EXECUTION</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Telegram &amp; MT4/MT5 Copier</h3>
+            <p class="text-slate-400 text-sm">
+              Receive instant VIP Telegram cards or connect our low-latency webhook EA to auto-execute entries, break-even moves, and partial TP closes.
+            </p>
+          </div>
+
+          <div class="mt-6 p-3.5 rounded-2xl bg-obsidian border border-emerald-500/25 font-mono text-xs space-y-1.5">
+            <div class="flex items-center justify-between text-emerald-400">
+              <span>● Telegram VIP Bot</span>
+              <span>95ms</span>
+            </div>
+            <div class="flex items-center justify-between text-cyan-400">
+              <span>● MetaTrader 4 / 5 EA</span>
+              <span>110ms</span>
+            </div>
+            <div class="flex items-center justify-between text-indigo-300">
+              <span>● Auto Break-Even @ TP1</span>
+              <span>ON</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 (Span 2): News & High-Impact NFP/CPI Volatility Shield -->
+        <div class="md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 font-mono text-xs text-rose-300 mb-4">
+              <span>03</span> • <span>MACRO GUARD</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">NFP &amp; CPI Volatility Shield</h3>
+            <p class="text-slate-400 text-sm">
+              Automatically pauses new entries 15 minutes prior to Red-Folder FOMC, CPI, and NFP releases to protect accounts from spread widening and slippage.
+            </p>
+          </div>
+
+          <div class="mt-6 p-3.5 rounded-2xl bg-obsidian border border-white/10 font-mono text-xs space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-slate-300">USD Core CPI (m/m)</span>
+              <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 text-[10px]">SHIELD ARMED</span>
+            </div>
+            <div class="text-[11px] text-slate-500">Auto-resumes 10m post-release once spread normalizes &lt; 1.8 pips.</div>
+          </div>
+        </div>
+
+        <!-- Card 4 (Span 2): Multi-Timeframe Confluence Engine -->
+        <div class="md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/15 border border-cyan-500/30 font-mono text-xs text-cyan-300 mb-4">
+              <span>04</span> • <span>HTF ALIGNMENT</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Multi-Timeframe Confluence</h3>
+            <p class="text-slate-400 text-sm">
+              Signals only fire when H4 institutional bias, H1 order-flow structure, and M15 sniper entry triggers align above an 85% neural score.
+            </p>
+          </div>
+
+          <div class="mt-6 space-y-2 font-mono text-xs">
+            <div class="flex items-center justify-between p-2.5 rounded-xl bg-obsidian border border-white/10">
+              <span class="text-slate-300">H4 Macro Bias</span>
+              <span class="text-emerald-400 font-bold">BULLISH ▲</span>
+            </div>
+            <div class="flex items-center justify-between p-2.5 rounded-xl bg-obsidian border border-white/10">
+              <span class="text-slate-300">H1 Structure</span>
+              <span class="text-emerald-400 font-bold">BOS CONFIRMED</span>
+            </div>
+            <div class="flex items-center justify-between p-2.5 rounded-xl bg-obsidian border border-white/10">
+              <span class="text-slate-300">M15 Execution</span>
+              <span class="text-cyan-400 font-bold">FVG RETEST</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 (Span 2 / Performance Anchor): Verified Monthly Pip Track Record -->
+        <div id="performance" class="md:col-span-2 glass-card rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 font-mono text-xs text-amber-300 mb-4">
+              <span>05</span> • <span>AUDITED LEDGER</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Verified Monthly Pip Growth</h3>
+            <p class="text-slate-400 text-sm">
+              Transparent Myfxbook-verified performance across the last 6 months (+26,410 cumulative net pips).
+            </p>
+          </div>
+
+          <!-- 6-Month Bar Chart -->
+          <div class="mt-6 p-4 rounded-2xl bg-obsidian border border-white/10">
+            <div class="flex items-end justify-between gap-2 h-28 pt-4">
+              <div class="flex-1 flex flex-col items-center gap-1.5">
+                <span class="font-mono text-[9px] text-emerald-400">+3.9k</span>
+                <div class="w-full bg-emerald-500/70 rounded-t-md h-[62%]"></div>
+                <span class="font-mono text-[10px] text-slate-500">JUN</span>
+              </div>
+              <div class="flex-1 flex flex-col items-center gap-1.5">
+                <span class="font-mono text-[9px] text-emerald-400">+4.4k</span>
+                <div class="w-full bg-emerald-500/80 rounded-t-md h-[74%]"></div>
+                <span class="font-mono text-[10px] text-slate-500">JUL</span>
+              </div>
+              <div class="flex-1 flex flex-col items-center gap-1.5">
+                <span class="font-mono text-[9px] text-emerald-400">+4.1k</span>
+                <div class="w-full bg-emerald-500/75 rounded-t-md h-[68%]"></div>
+                <span class="font-mono text-[10px] text-slate-500">AUG</span>
+              </div>
+              <div class="flex-1 flex flex-col items-center gap-1.5">
+                <span class="font-mono text-[9px] text-emerald-400">+4.7k</span>
+                <div class="w-full bg-cyan-400/85 rounded-t-md h-[84%]"></div>
+                <span class="font-mono text-[10px] text-slate-500">SEP</span>
+              </div>
+              <div class="flex-1 flex flex-col items-center gap-1.5">
+                <span class="font-mono text-[9px] text-emerald-400">+4.5k</span>
+                <div class="w-full bg-emerald-500/85 rounded-t-md h-[78%]"></div>
+                <span class="font-mono text-[10px] text-slate-500">OCT</span>
+              </div>
+              <div class="flex-1 flex flex-col items-center gap-1.5">
+                <span class="font-mono text-[9px] text-amber-400 font-bold">+4.8k</span>
+                <div class="w-full bg-gradient-to-t from-emerald-500 to-amber-400 rounded-t-md h-[95%]"></div>
+                <span class="font-mono text-[10px] text-white font-bold">NOV</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. PRICING TIERS (MONTHLY / QUARTERLY SAVE 30% TOGGLE) -->
+    <section id="pricing" class="py-20 md:py-28 border-t border-white/[0.08] bg-elevated/35">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="font-mono text-xs uppercase tracking-widest text-emerald-400">VIP Membership Access</span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-2 mb-4">
+            Institutional Signals That Pay For Themselves in One Trade
+          </h2>
+          <p class="text-slate-400 text-base sm:text-lg mb-8">
+            Start with 2 free daily signals or unlock unlimited XAUUSD &amp; Forex order-flow alerts with automated MT4/MT5 execution.
+          </p>
+
+          <!-- Monthly / Quarterly Toggle -->
+          <div class="inline-flex items-center gap-2 p-1.5 rounded-2xl bg-obsidian border border-white/10">
+            <button id="billMonthlyBtn" onclick="setBillingCycle('monthly')" class="px-4 py-2 rounded-xl text-sm font-semibold bg-emerald-500 text-obsidian transition-all">
+              Monthly
+            </button>
+            <button id="billQuarterlyBtn" onclick="setBillingCycle('quarterly')" class="px-4 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:text-white transition-all flex items-center gap-2">
+              Quarterly
+              <span class="px-2 py-0.5 rounded-full font-mono text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">Save 30%</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3 Pricing Tiers -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+
+          <!-- Tier 1: Starter (Free) -->
+          <div class="glass-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white">Starter</h3>
+              <p class="text-sm text-slate-400 mt-1">Test Zoqira's neural accuracy risk-free.</p>
+              <div class="my-6 flex items-baseline gap-1.5">
+                <span class="font-mono text-4xl sm:text-5xl font-extrabold text-white tabular-nums">$0</span>
+                <span class="text-sm text-slate-400">/ month</span>
+              </div>
+              <ul class="space-y-3.5 text-sm text-slate-300 mb-8">
+                <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> 2 daily AI signals (15-min delayed)</li>
+                <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> Public Telegram channel access</li>
+                <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> AI Position Size &amp; Lot Calculator</li>
+                <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> Weekly XAUUSD market outlook</li>
+              </ul>
+            </div>
+            <button onclick="openVipModal('Starter (Free Plan)')" class="w-full py-3.5 rounded-xl font-semibold text-sm text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-all">
+              Join Free Telegram Channel
+            </button>
+          </div>
+
+          <!-- Tier 2: Pro Trader ($49/mo - Highlighted) -->
+          <div class="relative rounded-3xl p-[1.5px] bg-gradient-to-b from-emerald-400 via-cyan-400 to-indigo-500 shadow-[0_24px_65px_-15px_rgba(16,185,129,0.4)]">
+            <div class="h-full bg-elevated rounded-[22.5px] p-7 sm:p-8 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2">
+                  <h3 class="text-lg font-bold text-white">Pro Trader</h3>
+                  <span class="px-3 py-1 rounded-full font-mono text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/40">MOST POPULAR</span>
+                </div>
+                <p class="text-sm text-slate-400 mt-1">Full real-time XAUUSD, Majors &amp; Indices VIP access.</p>
+                <div class="my-6">
+                  <div class="flex items-baseline gap-1.5">
+                    <span id="proPriceVal" class="font-mono text-4xl sm:text-5xl font-extrabold text-white tabular-nums">$49</span>
+                    <span class="text-sm text-slate-400">/ month</span>
+                  </div>
+                  <div id="proBillingNote" class="font-mono text-[11px] text-slate-400 mt-1">Billed monthly • Save 30% with Quarterly</div>
+                </div>
+                <ul class="space-y-3.5 text-sm text-slate-200 mb-8">
+                  <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> Unlimited XAUUSD &amp; Forex AI signals</li>
+                  <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> Instant zero-delay Telegram VIP alerts</li>
+                  <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> Full Interactive AI SMC Terminal</li>
+                  <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> Live Entry, SL, TP1/TP2/TP3 &amp; BE alerts</li>
+                  <li class="flex items-center gap-2.5"><span class="text-emerald-400 font-bold">✓</span> NFP &amp; CPI News Volatility Shield</li>
+                </ul>
+              </div>
+              <button onclick="openVipModal('Pro Trader VIP')" class="w-full py-3.5 rounded-xl font-bold text-sm text-obsidian cta-emerald-glow active:scale-95">
+                Start Pro VIP Access
+              </button>
+            </div>
+          </div>
+
+          <!-- Tier 3: Institutional / Prop Firm ($119/mo) -->
+          <div class="glass-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2">
+            <span class="font-display font-bold text-white text-base">Join Rosignal.ster VIP</span>
+            <span id="vipPlanBadge" class="px-2 py-0.5 rounded font-mono text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Pro Trader</span>
+          </div>
+          <button onclick="closeVipModal()" class="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <div id="vipModalFormWrap" class="p-6">
+          <p class="text-sm text-slate-400 mb-5">
+            Enter your email and Telegram handle to receive your instant Rosignal.ster VIP invite link and MT4/MT5 API token.
+          </p>
+          <form onsubmit="submitVipForm(event)" class="space-y-4">
+            <div>
+              <label class="block font-mono text-xs text-slate-400 mb-1.5">Email Address</label>
+              <input id="vipEmailInput" type="email" required placeholder="signals@rosignal.ster" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 px-4 py-3 text-sm text-white outline-none" />
+            </div>
+            <div>
+              <label class="block font-mono text-xs text-slate-400 mb-1.5">Telegram Username (Optional)</label>
+              <input id="vipTgInput" type="text" placeholder="@rosignalster" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 px-4 py-3 font-mono text-sm text-white outline-none" />
+            </div>
+            <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-sm text-obsidian cta-emerald-glow">
+              Activate Instant VIP Access →
+            </button>
+          </form>
+        </div>
+
+        <div id="vipModalSuccess" class="hidden p-7 text-center space-y-4">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mx-auto">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <h4 class="font-display text-lg font-bold text-white">Rosignal.ster VIP Invite Dispatched!</h4>
+          <p id="vipSuccessMsg" class="font-mono text-xs text-slate-300 leading-relaxed">
+            Check your inbox for your private @RosignalSterVIP_Bot activation link.
+          </p>
+          <button onclick="closeVipModal()" class="w-full py-3 rounded-xl font-semibold text-sm text-obsidian bg-white hover:bg-slate-200 transition-colors">
+            Return to Live Terminal
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GLOBAL CLIPBOARD / NOTIFICATION TOAST -->
+  <div id="globalToast" class="fixed bottom-6 right-6 z-50 hidden items-center gap-3 px-4 py-3 rounded-2xl bg-elevated border border-emerald-500/40 shadow-2xl shadow-emerald-500/20 font-mono text-xs text-white">
+    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+    <span id="globalToastMsg">Signal parameters copied to clipboard!</span>
+  </div>
+
+  <!-- JOIN VIP / START FREE TRIAL MODAL -->
+  <div id="vipModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+    <div class="w-full max-w-md rounded-3xl bg-elevated border border-white/15 shadow-2xl overflow-hidden">
+      <div class="px-6 py-4 bg-obsidian border-b border-white/10 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="font-display font-bold text-white text-base">Join Zoqira.pro VIP</span>
+          <span id="vipPlanBadge" class="px-2 py-0.5 rounded font-mono text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Pro Trader</span>
+        </div>
+        <button onclick="closeVipModal()" class="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div id="vipModalFormWrap" class="p-6">
+        <p class="text-sm text-slate-400 mb-5">
+          Enter your email and Telegram handle to receive your instant VIP invite link and MT4/MT5 API token.
+        </p>
+        <form onsubmit="submitVipForm(event)" class="space-y-4">
+          <div>
+            <label class="block font-mono text-xs text-slate-400 mb-1.5">Email Address</label>
+            <input id="vipEmailInput" type="email" required placeholder="trader@domain.com" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 px-4 py-3 text-sm text-white outline-none" />
+          </div>
+          <div>
+            <label class="block font-mono text-xs text-slate-400 mb-1.5">Telegram Username (Optional)</label>
+            <input id="vipTgInput" type="text" placeholder="@yourhandle" class="w-full rounded-xl bg-obsidian border border-white/10 focus:border-emerald-500 px-4 py-3 font-mono text-sm text-white outline-none" />
+          </div>
+          <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-sm text-obsidian cta-emerald-glow">
+            Activate Instant VIP Access →
+          </button>
+        </form>
+      </div>
+
+      <div id="vipModalSuccess" class="hidden p-7 text-center space-y-4">
+        <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mx-auto">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <h4 class="font-display text-lg font-bold text-white">VIP Invite Dispatched!</h4>
+        <p id="vipSuccessMsg" class="font-mono text-xs text-slate-300 leading-relaxed">
+          Check your inbox for your private @ZoqiraVIP_Bot activation link.
+        </p>
+        <button onclick="closeVipModal()" class="w-full py-3 rounded-xl font-semibold text-sm text-obsidian bg-white hover:bg-slate-200 transition-colors">
+          Return to Live Terminal
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE JAVASCRIPT ENGINE -->
+  <script>
+    // ==========================================
+    // 1. LIVE MARKET & AI SIGNAL TICKER BAR
+    // ==========================================
+    const tickerPairs = [
+      { sym: 'XAUUSD', price: '2742.80', change: '+18.40 (+0.68%)', dir: 'BUY', isGold: true },
+      { sym: 'EURUSD', price: '1.0864', change: '+0.0032 (+0.29%)', dir: 'BUY', isGold: false },
+      { sym: 'GBPUSD', price: '1.2942', change: '-0.0021 (-0.16%)', dir: 'SELL', isGold: false },
+      { sym: 'USDJPY', price: '153.85', change: '+0.64 (+0.42%)', dir: 'BUY', isGold: false },
+      { sym: 'NAS100', price: '20485.5', change: '+142.0 (+0.70%)', dir: 'BUY', isGold: false },
+      { sym: 'BTCUSD', price: '91420.0', change: '-410.0 (-0.45%)', dir: 'SELL', isGold: false }
+    ];
+
+    function renderMarketTicker() {
+      const track = document.getElementById('marketTickerTrack');
+      const itemsHtml = tickerPairs.map(item => {
+        const isBuy = item.dir === 'BUY';
+        const symColor = item.isGold ? 'text-amber-400' : 'text-white';
+        const badgeClass = isBuy
+          ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30'
+          : 'bg-rose-500/15 text-rose-400 border-rose-500/30';
+        const changeColor = isBuy ? 'text-emerald-400' : 'text-rose-400';
+        return `
+          <div class="inline-flex items-center gap-3 px-6 border-r border-white/[0.08] font-mono text-xs tabular-nums">
+            <span class="font-bold ${symColor}">${item.sym}</span>
+            <span class="text-slate-200 font-semibold">${item.price}</span>
+            <span class="${changeColor}">${item.change}</span>
+            <span class="px-2 py-0.5 rounded border text-[10px] font-bold ${badgeClass}">AI ${item.dir}</span>
+          </div>
+        `;
+      }).join('');
+      // Duplicate for seamless infinite scrolling
+      track.innerHTML = itemsHtml + itemsHtml;
+    }
+
+    // ==========================================
+    // 2. MOBILE NAVIGATION DRAWER
+    // ==========================================
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenuDrawer = document.getElementById('mobileMenuDrawer');
+    const menuIconOpen = document.getElementById('menuIconOpen');
+    const menuIconClose = document.getElementById('menuIconClose');
+
+    function toggleMobileMenu() {
+      mobileMenuDrawer.classList.toggle('hidden');
+      menuIconOpen.classList.toggle('hidden');
+      menuIconClose.classList.toggle('hidden');
+    }
+    mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+
+    // ==========================================
+    // 3. INTERACTIVE HTML5 CANVAS CANDLESTICK SMC TERMINAL
+    // ==========================================
+    const terminalConfigs = {
+      XAUUSD: {
+        direction: 'BUY',
+        badgeText: 'BUY LIMIT / INSTITUTIONAL LONG',
+        livePrice: '2742.80',
+        session: 'NY Overlap Killzone',
+        confidence: 94.2,
+        rr: '1:3.6',
+        entry: 2741.50,
+        sl: 2734.00,
+        slPips: '-75p',
+        tp1: 2748.00,
+        tp1Pips: '+65 pips',
+        tp2: 2756.00,
+        tp2Pips: '+145 pips',
+        tp3: 2768.50,
+        tp3Pips: '+270 pips',
+        decimals: 2,
+        rationale: 'Sell-side liquidity swept below London session low ($2,736.20) followed by a high-volume H1 bullish CHoCH and unmitigated Fair Value Gap retest. DXY showing bearish divergence.',
+        candles: [
+          [2752.0, 2754.2, 2748.5, 2749.2],
+          [2749.2, 2750.5, 2744.0, 2745.1],
+          [2745.1, 2746.8, 2741.2, 2742.0],
+          [2742.0, 2743.5, 2738.8, 2739.5],
+          [2739.5, 2741.0, 2736.0, 2737.4],
+          [2737.4, 2738.9, 2734.8, 2736.2], // Liquidity Sweep
+          [2736.2, 2742.5, 2735.9, 2741.8], // Bullish Displacement
+          [2741.8, 2746.4, 2741.0, 2745.6], // BOS
+          [2745.6, 2747.0, 2741.2, 2741.9], // FVG Retest
+          [2741.9, 2744.2, 2741.3, 2742.8]  // Current Active Candle
+        ]
+      },
+      EURUSD: {
+        direction: 'BUY',
+        badgeText: 'BUY MARKET / SMC CONTINUATION',
+        livePrice: '1.0864',
+        session: 'London / NY Overlap',
+        confidence: 91.8,
+        rr: '1:3.2',
+        entry: 1.0860,
+        sl: 1.0830,
+        slPips: '-30p',
+        tp1: 1.0890,
+        tp1Pips: '+30 pips',
+        tp2: 1.0925,
+        tp2Pips: '+65 pips',
+        tp3: 1.0960,
+        tp3Pips: '+100 pips',
+        decimals: 4,
+        rationale: 'Clean H1 Break of Structure above 1.0855 institutional resistance with bullish Order Block mitigation at 1.0858. Yield spread differential favors Euro upside.',
+        candles: [
+          [1.0880, 1.0885, 1.0865, 1.0868],
+          [1.0868, 1.0872, 1.0850, 1.0853],
+          [1.0853, 1.0858, 1.0840, 1.0842],
+          [1.0842, 1.0847, 1.0834, 1.0838],
+          [1.0838, 1.0856, 1.0837, 1.0854],
+          [1.0854, 1.0874, 1.0852, 1.0871],
+          [1.0871, 1.0876, 1.0858, 1.0861],
+          [1.0861, 1.0869, 1.0859, 1.0864]
+        ]
+      },
+      GBPUSD: {
+        direction: 'SELL',
+        badgeText: 'SELL LIMIT / BEARISH ORDER BLOCK',
+        livePrice: '1.2942',
+        session: 'London Killzone',
+        confidence: 89.6,
+        rr: '1:3.1',
+        entry: 1.2950,
+        sl: 1.2985,
+        slPips: '-35p',
+        tp1: 1.2915,
+        tp1Pips: '+35 pips',
+        tp2: 1.2880,
+        tp2Pips: '+70 pips',
+        tp3: 1.2840,
+        tp3Pips: '+110 pips',
+        decimals: 4,
+        rationale: 'Buy-side liquidity purged above Asian session highs (1.2974) into H4 Bearish Order Block, triggering an aggressive M15/H1 bearish displacement.',
+        candles: [
+          [1.2910, 1.2935, 1.2908, 1.2932],
+          [1.2932, 1.2958, 1.2930, 1.2955],
+          [1.2955, 1.2980, 1.2952, 1.2972], // Sweep
+          [1.2972, 1.2976, 1.2940, 1.2944], // Bearish Displacement
+          [1.2944, 1.2954, 1.2936, 1.2948],
+          [1.2948, 1.2952, 1.2938, 1.2942]
+        ]
+      },
+      USDJPY: {
+        direction: 'BUY',
+        badgeText: 'BUY STOP / MOMENTUM BREAKOUT',
+        livePrice: '153.85',
+        session: 'Tokyo / London Bridge',
+        confidence: 92.5,
+        rr: '1:3.4',
+        entry: 153.80,
+        sl: 153.40,
+        slPips: '-40p',
+        tp1: 154.25,
+        tp1Pips: '+45 pips',
+        tp2: 154.70,
+        tp2Pips: '+90 pips',
+        tp3: 155.20,
+        tp3Pips: '+140 pips',
+        decimals: 2,
+        rationale: 'US 10Y Treasury yields rebounding off intraday demand while USDJPY forms higher lows above 153.55 institutional demand shelf.',
+        candles: [
+          [153.20, 153.45, 153.15, 153.40],
+          [153.40, 153.65, 153.35, 153.60],
+          [153.60, 153.72, 153.48, 153.52],
+          [153.52, 153.82, 153.50, 153.79],
+          [153.79, 153.92, 153.74, 153.85]
+        ]
+      },
+      NAS100: {
+        direction: 'BUY',
+        badgeText: 'BUY LIMIT / NY OPEN LIQUIDITY',
+        livePrice: '20485.5',
+        session: 'NY Equities Open',
+        confidence: 95.1,
+        rr: '1:3.8',
+        entry: 20475.0,
+        sl: 20395.0,
+        slPips: '-80pts',
+        tp1: 20560.0,
+        tp1Pips: '+85 pts',
+        tp2: 20650.0,
+        tp2Pips: '+175 pts',
+        tp3: 20780.0,
+        tp3Pips: '+305 pts',
+        decimals: 1,
+        rationale: 'Pre-market Judas swing swept 20,410 sell stops before reclaiming VWAP and printing a pristine H1 bullish Fair Value Gap.',
+        candles: [
+          [20520, 20545, 20480, 20490],
+          [20490, 20505, 20435, 20445],
+          [20445, 20460, 20405, 20420],
+          [20420, 20495, 20415, 20488],
+          [20488, 20500, 20472, 20485.5]
+        ]
+      }
+    };
+
+    let currentPair = 'XAUUSD';
+    let currentTf = 'H1';
+    let hoverMousePos = null;
+
+    const canvas = document.getElementById('smcChartCanvas');
+    const ctx = canvas.getContext('2d');
+
+    function updateTerminalUI() {
+      const cfg = terminalConfigs[currentPair];
+      const isBuy = cfg.direction === 'BUY';
+
+      document.getElementById('chartPairTitle').textContent = `${currentPair} • ${currentTf}`;
+      const badge = document.getElementById('chartDirectionBadge');
+      badge.textContent = cfg.badgeText;
+      badge.className = isBuy
+        ? 'px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
+        : 'px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-rose-500/20 text-rose-400 border border-rose-500/40';
+
+      document.getElementById('chartLivePrice').textContent = cfg.livePrice;
+      document.getElementById('chartSessionTag').textContent = cfg.session;
+      document.getElementById('termConfidenceVal').textContent = `${cfg.confidence}%`;
+      document.getElementById('termConfidenceBar').style.width = `${cfg.confidence}%`;
+      document.getElementById('termConfluenceLabel').textContent = `Confluence: M15 + ${currentTf} + H4 Aligned`;
+      document.getElementById('termRRLabel').textContent = `R:R ${cfg.rr}`;
+
+      document.getElementById('termEntryVal').textContent = cfg.entry.toFixed(cfg.decimals);
+      document.getElementById('termSlVal').innerHTML = `${cfg.sl.toFixed(cfg.decimals)} <span class="text-[10px]">(${cfg.slPips})</span>`;
+      document.getElementById('termTp1Val').textContent = cfg.tp1.toFixed(cfg.decimals);
+      document.getElementById('termTp2Val').textContent = cfg.tp2.toFixed(cfg.decimals);
+      document.getElementById('termTp3Val').textContent = cfg.tp3.toFixed(cfg.decimals);
+      document.getElementById('termRationaleText').textContent = cfg.rationale;
+
+      drawSmcChart();
+    }
+
+    function drawSmcChart() {
+      const container = document.getElementById('chartCanvasContainer');
+      const dpr = window.devicePixelRatio || 1;
+      const rect = container.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      ctx.scale(dpr, dpr);
+
+      const width = rect.width;
+      const height = rect.height;
+      const cfg = terminalConfigs[currentPair];
+      const candles = cfg.candles;
+
+      // Clear background
+      ctx.fillStyle = '#070A12';
+      ctx.fillRect(0, 0, width, height);
+
+      // Compute price range including SL and TP2/TP3 so all levels are visible
+      const allPrices = [cfg.sl, cfg.entry, cfg.tp1, cfg.tp2];
+      candles.forEach(c => { allPrices.push(c[1], c[2]); });
+      const rawMin = Math.min(...allPrices);
+      const rawMax = Math.max(...allPrices);
+      const pad = (rawMax - rawMin) * 0.16;
+      const minP = rawMin - pad;
+      const maxP = rawMax + pad;
+
+      const rightAxisW = 68;
+      const plotW = width - rightAxisW;
+      const priceToY = (p) => height - ((p - minP) / (maxP - minP)) * height;
+
+      // Horizontal Grid Lines & Price Axis
+      ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+      ctx.lineWidth = 1;
+      ctx.font = '10px "JetBrains Mono", monospace';
+      ctx.fillStyle = '#64748B';
+      for (let i = 1; i <= 5; i++) {
+        const y = (height / 6) * i;
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(plotW, y);
+        ctx.stroke();
+
+        const pVal = maxP - ((maxP - minP) / 6) * i;
+        ctx.fillText(pVal.toFixed(cfg.decimals), plotW + 8, y + 3);
+      }
+
+      // Draw Bullish/Bearish Order Block Zone around Entry
+      const obTop = priceToY(cfg.entry + (maxP - minP) * 0.03);
+      const obBot = priceToY(cfg.entry - (maxP - minP) * 0.04);
+      ctx.fillStyle = 'rgba(99, 102, 241, 0.16)';
+      ctx.fillRect(plotW * 0.35, obTop, plotW * 0.65, obBot - obTop);
+      ctx.strokeStyle = 'rgba(99, 102, 241, 0.45)';
+      ctx.strokeRect(plotW * 0.35, obTop, plotW * 0.65, obBot - obTop);
+
+      // Draw Candlesticks
+      const stepX = (plotW * 0.78) / candles.length;
+      const candleW = Math.max(8, Math.min(22, stepX * 0.56));
+
+      candles.forEach((c, idx) => {
+        const [open, high, low, close] = c;
+        const x = 24 + idx * stepX + stepX / 2;
+        const isBull = close >= open;
+        const color = isBull ? '#10B981' : '#EF4444';
+
+        // Wick
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        ctx.moveTo(x, priceToY(high));
+        ctx.lineTo(x, priceToY(low));
+        ctx.stroke();
+
+        // Body
+        const yOpen = priceToY(open);
+        const yClose = priceToY(close);
+        const bodyH = Math.max(3, Math.abs(yClose - yOpen));
+        ctx.fillStyle = color;
+        ctx.fillRect(x - candleW / 2, Math.min(yOpen, yClose), candleW, bodyH);
+      });
+
+      // Helper to plot horizontal signal levels
+      function drawSignalLevel(price, label, color, dashed = false) {
+        const y = priceToY(price);
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1.4;
+        if (dashed) ctx.setLineDash([5, 4]);
+        ctx.beginPath();
+        ctx.moveTo(12, y);
+        ctx.lineTo(plotW, y);
+        ctx.stroke();
+        ctx.restore();
+
+        // Pill on right price axis
+        ctx.fillStyle = color;
+        ctx.fillRect(plotW + 2, y - 9, rightAxisW - 4, 18);
+        ctx.fillStyle = '#05070C';
+        ctx.font = 'bold 10px "JetBrains Mono", monospace';
+        ctx.fillText(price.toFixed(cfg.decimals), plotW + 6, y + 3);
+
+        // Inline Label
+        ctx.fillStyle = color;
+        ctx.font = 'bold 10px "JetBrains Mono", monospace';
+        ctx.fillText(label, 16, y - 5);
+      }
+
+      drawSignalLevel(cfg.sl, `STOP LOSS (${cfg.slPips})`, '#EF4444', true);
+      drawSignalLevel(cfg.entry, 'AI ENTRY', '#06B6D4', false);
+      drawSignalLevel(cfg.tp1, `TP1 (${cfg.tp1Pips})`, '#10B981', true);
+      drawSignalLevel(cfg.tp2, `TP2 (${cfg.tp2Pips})`, '#10B981', false);
+
+      // Interactive Hover Crosshair
+      if (hoverMousePos && hoverMousePos.x < plotW) {
+        ctx.save();
+        ctx.strokeStyle = 'rgba(255,255,255,0.25)';
+        ctx.setLineDash([3, 3]);
+        ctx.beginPath();
+        ctx.moveTo(hoverMousePos.x, 0);
+        ctx.lineTo(hoverMousePos.x, height);
+        ctx.moveTo(0, hoverMousePos.y);
+        ctx.lineTo(plotW, hoverMousePos.y);
+        ctx.stroke();
+        ctx.restore();
+
+        const hoverPrice = maxP - (hoverMousePos.y / height) * (maxP - minP);
+        ctx.fillStyle = '#1E293B';
+        ctx.fillRect(plotW + 2, hoverMousePos.y - 9, rightAxisW - 4, 18);
+        ctx.fillStyle = '#F8FAFC';
+        ctx.font = '10px "JetBrains Mono", monospace';
+        ctx.fillText(hoverPrice.toFixed(cfg.decimals), plotW + 6, hoverMousePos.y + 3);
+      }
+    }
+
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      hoverMousePos = { x: e.clientX - rect.left, y: e.clientY - rect.top };
+      drawSmcChart();
+    });
+    canvas.addEventListener('mouseleave', () => {
+      hoverMousePos = null;
+      drawSmcChart();
+    });
+
+    document.querySelectorAll('.term-pair-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.term-pair-btn').forEach(b => {
+          b.className = 'term-pair-btn px-3 py-1.5 rounded-xl font-mono text-xs font-semibold bg-white/5 text-slate-300 hover:text-white border border-white/10 transition-all';
+        });
+        const pair = btn.getAttribute('data-pair');
+        btn.className = pair === 'XAUUSD'
+          ? 'term-pair-btn active px-3 py-1.5 rounded-xl font-mono text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 transition-all'
+          : 'term-pair-btn active px-3 py-1.5 rounded-xl font-mono text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all';
+        currentPair = pair;
+        updateTerminalUI();
+      });
+    });
+
+    document.querySelectorAll('.term-tf-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.term-tf-btn').forEach(b => {
+          b.className = 'term-tf-btn px-2.5 py-1 rounded-lg font-mono text-xs font-semibold text-slate-400 hover:text-white transition-all';
+        });
+        btn.className = 'term-tf-btn active px-2.5 py-1 rounded-lg font-mono text-xs font-bold bg-cyan-500/20 text-cyan-300 transition-all';
+        currentTf = btn.getAttribute('data-tf');
+        updateTerminalUI();
+      });
+    });
+
+    function copyTerminalSignal() {
+      const cfg = terminalConfigs[currentPair];
+      const formatted = `ROSIGNAL.STER VIP SIGNAL\nPair: ${currentPair} (${currentTf})\nAction: ${cfg.direction}\nEntry: ${cfg.entry}\nStop Loss: ${cfg.sl}\nTP1: ${cfg.tp1}\nTP2: ${cfg.tp2}\nTP3: ${cfg.tp3}\nAI Confidence: ${cfg.confidence}%`;
+      copyToClipboard(formatted, `${currentPair} ${cfg.direction} MT4/MT5 signal copied!`);
+    }
+
+    // ==========================================
+    // 4. FILTERABLE LIVE AI SIGNALS FEED
+    // ==========================================
+    const liveSignalsList = [
+      {
+        pair: 'XAUUSD',
+        category: 'gold',
+        type: 'BUY',
+        status: 'ACTIVE',
+        statusBadge: 'ACTIVE • RUNNING +42 PIPS',
+        isHitTp: false,
+        entry: '2741.50',
+        sl: '2734.00',
+        tp1: '2748.00',
+        tp2: '2756.00',
+        tp3: '2768.50',
+        confidence: '94.2%',
+        rr: '1:3.6',
+        time: '12 mins ago'
+      },
+      {
+        pair: 'XAUUSD',
+        category: 'gold',
+        type: 'SELL',
+        status: 'TP3 HIT',
+        statusBadge: 'TP3 HIT +185 PIPS',
+        isHitTp: true,
+        entry: '2758.00',
+        sl: '2765.50',
+        tp1: '2751.00',
+        tp2: '2744.50',
+        tp3: '2739.50',
+        confidence: '96.1%',
+        rr: '1:2.5',
+        time: '3 hrs ago'
+      },
+      {
+        pair: 'EURUSD',
+        category: 'forex',
+        type: 'BUY',
+        status: 'ACTIVE',
+        statusBadge: 'ACTIVE • ENTRY TRIGGERED',
+        isHitTp: false,
+        entry: '1.0860',
+        sl: '1.0830',
+        tp1: '1.0890',
+        tp2: '1.0925',
+        tp3: '1.0960',
+        confidence: '91.8%',
+        rr: '1:3.3',
+        time: '28 mins ago'
+      },
+      {
+        pair: 'GBPUSD',
+        category: 'forex',
+        type: 'SELL',
+        status: 'TP2 HIT',
+        statusBadge: 'TP2 HIT +70 PIPS',
+        isHitTp: true,
+        entry: '1.2950',
+        sl: '1.2985',
+        tp1: '1.2915',
+        tp2: '1.2880',
+        tp3: '1.2840',
+        confidence: '89.6%',
+        rr: '1:3.1',
+        time: '5 hrs ago'
+      },
+      {
+        pair: 'NAS100',
+        category: 'indices',
+        type: 'BUY',
+        status: 'TP2 HIT',
+        statusBadge: 'TP2 HIT +175 PTS',
+        isHitTp: true,
+        entry: '20475.0',
+        sl: '20395.0',
+        tp1: '20560.0',
+        tp2: '20650.0',
+        tp3: '20780.0',
+        confidence: '95.1%',
+        rr: '1:3.8',
+        time: '6 hrs ago'
+      },
+      {
+        pair: 'USDJPY',
+        category: 'forex',
+        type: 'BUY',
+        status: 'ACTIVE',
+        statusBadge: 'ACTIVE • RUNNING +18 PIPS',
+        isHitTp: false,
+        entry: '153.80',
+        sl: '153.40',
+        tp1: '154.25',
+        tp2: '154.70',
+      function copyCardSignal(idx) {
+        const s = liveSignalsList[idx];
+        const text = `${s.pair} ${s.type} | Entry: ${s.entry} | SL: ${s.sl} | TP1: ${s.tp1} | TP2: ${s.tp2} | TP3: ${s.tp3} (Rosignal.ster AI)`;
+        copyToClipboard(text, `${s.pair} ${s.type} parameters copied!`);
+      }
+    ];
+
+    function renderSignalCards(filter = 'all') {
+      const grid = document.getElementById('signalsGrid');
+      const filtered = liveSignalsList.filter(s => {
+        if (filter === 'all') return true;
+        if (filter === 'gold') return s.category === 'gold';
+        if (filter === 'forex') return s.category === 'forex';
+        if (filter === 'indices') return s.category === 'indices';
+        if (filter === 'active') return !s.isHitTp;
+        if (filter === 'tp') return s.isHitTp;
+        return true;
+      });
+
+      grid.innerHTML = filtered.map((s, index) => {
+        const isBuy = s.type === 'BUY';
+        const dirBadge = isBuy
+          ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40'
+          : 'bg-rose-500/20 text-rose-400 border-rose-500/40';
+        const statusClass = s.isHitTp
+          ? 'bg-amber-500/15 text-amber-300 border-amber-500/35'
+          : 'bg-cyan-500/15 text-cyan-300 border-cyan-500/35';
+        const pairAccent = s.pair === 'XAUUSD' ? 'text-amber-400' : 'text-white';
+
+        return `
+          <div class="glass-card rounded-3xl p-5 sm:p-6 flex flex-col justify-between">
+            <div>
+              <!-- Top Row: Pair + BUY/SELL + Status -->
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <div class="flex items-center gap-2.5">
+                  <span class="font-mono text-lg font-extrabold ${pairAccent}">${s.pair}</span>
+                  <span class="px-2.5 py-0.5 rounded-md font-mono text-xs font-bold border ${dirBadge}">${s.type}</span>
+                </div>
+                <span class="px-2.5 py-1 rounded-full font-mono text-[10px] font-bold border ${statusClass}">${s.statusBadge}</span>
+              </div>
+
+              <!-- Price Levels Grid -->
+              <div class="grid grid-cols-2 gap-2 font-mono text-xs tabular-nums mb-4">
+                <div class="p-2.5 rounded-xl bg-obsidian border border-white/[0.07]">
+                  <span class="text-[10px] text-slate-400 block">ENTRY</span>
+                  <span class="text-white font-bold">${s.entry}</span>
+                </div>
+                <div class="p-2.5 rounded-xl bg-obsidian border border-rose-500/20">
+                  <span class="text-[10px] text-rose-400 block">STOP LOSS</span>
+                  <span class="text-rose-300 font-bold">${s.sl}</span>
+                </div>
+                <div class="p-2 rounded-xl bg-emerald-500/5 border border-emerald-500/20">
+                  <span class="text-[10px] text-slate-400 block">TP 1</span>
+                  <span class="text-emerald-400 font-bold">${s.tp1}</span>
+                </div>
+                <div class="p-2 rounded-xl bg-emerald-500/5 border border-emerald-500/20">
+                  <span class="text-[10px] text-slate-400 block">TP 2</span>
+                  <span class="text-emerald-400 font-bold">${s.tp2}</span>
+                </div>
+                <div class="col-span-2 p-2 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center justify-between">
+                  <span class="text-[10px] text-emerald-300">TP 3 TARGET</span>
+                  <span class="text-emerald-300 font-bold">${s.tp3}</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Meta + Copy Parameters Button -->
+            <div class="pt-3 border-t border-white/[0.08] flex items-center justify-between gap-2">
+              <div class="font-mono text-[11px] text-slate-400">
+                <span class="text-cyan-400 font-semibold">${s.confidence} AI</span> • R:R ${s.rr}
+              </div>
+              <button onclick="copyCardSignal(${index})" class="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-emerald-500/20 text-slate-200 hover:text-emerald-300 border border-white/10 hover:border-emerald-500/40 font-mono text-[11px] font-semibold transition-all">
+                Copy Params
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function copyCardSignal(idx) {
+      const s = liveSignalsList[idx];
+      const text = `${s.pair} ${s.type} | Entry: ${s.entry} | SL: ${s.sl} | TP1: ${s.tp1} | TP2: ${s.tp2} | TP3: ${s.tp3} (Zoqira.pro AI)`;
+      copyToClipboard(text, `${s.pair} ${s.type} parameters copied!`);
+    }
+
+    document.querySelectorAll('.sig-filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.sig-filter-btn').forEach(b => {
+          b.className = 'sig-filter-btn px-3.5 py-2 rounded-xl font-mono text-xs font-semibold bg-elevated text-slate-300 hover:text-white border border-white/10 transition-all';
+        });
+        btn.className = 'sig-filter-btn active px-3.5 py-2 rounded-xl font-mono text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 transition-all';
+        renderSignalCards(btn.getAttribute('data-filter'));
+      });
+    });
+
+    // ==========================================
+    // 5. INTERACTIVE LOT SIZE & RISK CALCULATOR
+    // ==========================================
+    const calcBalance = document.getElementById('calcBalance');
+    const calcPair = document.getElementById('calcPair');
+    const calcRiskSlider = document.getElementById('calcRiskSlider');
+    const calcSlPips = document.getElementById('calcSlPips');
+
+    function recalculatePosition() {
+      const balance = Math.max(0, parseFloat(calcBalance.value) || 0);
+      const riskPct = parseFloat(calcRiskSlider.value) || 1;
+      const slPips = Math.max(1, parseFloat(calcSlPips.value) || 1);
+      const selectedOpt = calcPair.options[calcPair.selectedIndex];
+      const pipValPerLot = parseFloat(selectedOpt.getAttribute('data-pipval')) || 10;
+
+      document.getElementById('calcRiskDisplay').textContent = `${riskPct.toFixed(2).replace(/\.00$/, '.0')}%`;
+
+      const riskUsd = balance * (riskPct / 100);
+      const stdLots = riskUsd / (slPips * pipValPerLot);
+      const miniLots = stdLots * 10;
+
+      document.getElementById('outStdLots').textContent = stdLots.toFixed(2);
+      document.getElementById('outMiniLots').textContent = miniLots.toFixed(2);
+      document.getElementById('outRiskUsd').textContent = `$${riskUsd.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+
+      document.getElementById('outTp1Usd').textContent = `+$${(riskUsd * 1.2).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+      document.getElementById('outTp2Usd').textContent = `+$${(riskUsd * 2.4).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+      document.getElementById('outTp3Usd').textContent = `+$${(riskUsd * 3.6).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    }
+
+    calcPair.addEventListener('change', () => {
+      const defaultSl = calcPair.options[calcPair.selectedIndex].getAttribute('data-defaultsl');
+      if (defaultSl) calcSlPips.value = defaultSl;
+      recalculatePosition();
+    });
+    [calcBalance, calcRiskSlider, calcSlPips].forEach(el => el.addEventListener('input', recalculatePosition));
+
+    // ==========================================
+    // 6. PRICING BILLING TOGGLE (MONTHLY / QUARTERLY)
+    // ==========================================
+    function setBillingCycle(cycle) {
+      const mBtn = document.getElementById('billMonthlyBtn');
+      const qBtn = document.getElementById('billQuarterlyBtn');
+      const proVal = document.getElementById('proPriceVal');
+      const proNote = document.getElementById('proBillingNote');
+      const instVal = document.getElementById('instPriceVal');
+      const instNote = document.getElementById('instBillingNote');
+
+      if (cycle === 'quarterly') {
+        qBtn.className = 'px-4 py-2 rounded-xl text-sm font-semibold bg-emerald-500 text-obsidian transition-all flex items-center gap-2';
+        mBtn.className = 'px-4 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:text-white transition-all';
+        proVal.textContent = '$34';
+        proNote.textContent = 'Billed $102 quarterly (Save 30%)';
+      function submitVipForm(e) {
+        e.preventDefault();
+        const email = document.getElementById('vipEmailInput').value.trim();
+        const tg = document.getElementById('vipTgInput').value.trim();
+        document.getElementById('vipModalFormWrap').classList.add('hidden');
+        document.getElementById('vipModalSuccess').classList.remove('hidden');
+        document.getElementById('vipSuccessMsg').textContent = tg
+          ? `Rosignal.ster VIP Telegram invite sent to ${tg} and API credentials dispatched to ${email}.`
+          : `Rosignal.ster VIP Telegram invite link and MT4/MT5 copier key dispatched to ${email}.`;
+      }
+    }
+
+    // ==========================================
+    // 7. FAQ ACCORDION
+    // ==========================================
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const body = btn.nextElementSibling;
+        const icon = btn.querySelector('.faq-icon');
+        const isOpen = !body.classList.contains('hidden');
+
+        document.querySelectorAll('.faq-body').forEach(b => b.classList.add('hidden'));
+        document.querySelectorAll('.faq-icon').forEach(i => i.textContent = '+');
+
+        if (!isOpen) {
+          body.classList.remove('hidden');
+          icon.textContent = '−';
+        }
+      });
+    });
+
+    // ==========================================
+    // 8. CLIPBOARD HELPER, TOAST & VIP MODAL
+    // ==========================================
+    let toastTimeout = null;
+    function copyToClipboard(text, message) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      showToast(message);
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('globalToast');
+      document.getElementById('globalToastMsg').textContent = message;
+      toast.classList.remove('hidden');
+      toast.classList.add('flex');
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('hidden');
+        toast.classList.remove('flex');
+      }, 2600);
+    }
+
+    const vipModal = document.getElementById('vipModal');
+    function openVipModal(planName = 'Pro Trader VIP') {
+      document.getElementById('vipPlanBadge').textContent = planName;
+      document.getElementById('vipModalFormWrap').classList.remove('hidden');
+      document.getElementById('vipModalSuccess').classList.add('hidden');
+      vipModal.classList.remove('hidden');
+      vipModal.classList.add('flex');
+    }
+
+    function closeVipModal() {
+      vipModal.classList.add('hidden');
+      vipModal.classList.remove('flex');
+    }
+
+    vipModal.addEventListener('click', (e) => {
+      if (e.target === vipModal) closeVipModal();
+    });
+
+    function submitVipForm(e) {
+      e.preventDefault();
+      const email = document.getElementById('vipEmailInput').value.trim();
+      const tg = document.getElementById('vipTgInput').value.trim();
+      document.getElementById('vipModalFormWrap').classList.add('hidden');
+      document.getElementById('vipModalSuccess').classList.remove('hidden');
+      document.getElementById('vipSuccessMsg').textContent = tg
+        ? `VIP Telegram invite sent to ${tg} and API credentials dispatched to ${email}.`
+        : `VIP Telegram invite link and MT4/MT5 copier key dispatched to ${email}.`;
+    }
+
+    // Initialize everything on DOMContentLoaded & Resize
+    window.addEventListener('DOMContentLoaded', () => {
+      renderMarketTicker();
+      updateTerminalUI();
+      renderSignalCards('all');
+      recalculatePosition();
+    });
+
+    window.addEventListener('resize', drawSmcChart);
+  </script>
+</body>
+</html>
